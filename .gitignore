@@ -1,0 +1,28 @@
+##*****************************************************##
+
+# Настройки подключения
+/bitrix/.settings.php
+/bitrix/php_interface/dbconn.php
+
+# Временные файлы и резервные копии
+/bitrix/tmp/
+/bitrix/backup/
+
+# Кеш
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/managed_flags/
+/bitrix/stack_cache/
+
+# Логи и установочные пакеты
+/bitrix/modules/*/install/
+/bitrix/**/*.log
+
+# Сосотояние подсистемы обновлений
+/bitrix/modules/main/classes/general/update_client.php
+
+##*****************************************************##
+
+# Персональные настроки исключений
+
+/.idea/
