@@ -56,7 +56,7 @@ else {
 
     $curPage = $APPLICATION->GetCurPageParam();
     $iPage = isset($_REQUEST["page"]) ? $_REQUEST["page"] : 1;
-    $strFilter = isset($_REQUEST["filter"]) ? $_REQUEST["filter"] : 'SMQ';
+    $strFilter = isset($_REQUEST["filter"]) ? $_REQUEST["filter"] : '';
     $strStatus = isset($_REQUEST["status"]) ? $_REQUEST["status"] : '*';
     $iPPage = isset($_REQUEST["ppage"]) ? $_REQUEST["ppage"] : 10;
 
